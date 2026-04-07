@@ -1,2 +1,0 @@
-this file was made so that the directory/folders made appear on github 
-TO BE DELETED
