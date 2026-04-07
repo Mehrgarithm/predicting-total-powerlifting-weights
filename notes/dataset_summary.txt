@@ -1,0 +1,60 @@
+DATASET SUMMARY
+
+Dataset file path:
+data/raw/openpowerlifting.csv
+
+Dataset shape:
+(3891860, 42)
+
+Required column check:
+Sex: FOUND
+Event: FOUND
+Equipment: FOUND
+Age: FOUND
+BodyweightKg: FOUND
+TotalKg: FOUND
+Dots: FOUND
+
+Missing value counts:
+Name                      0
+Sex                       0
+Event                     0
+Equipment                 0
+Age                 1447368
+AgeClass            1078670
+BirthYearClass      1363226
+Division               3747
+BodyweightKg          44191
+WeightClassKg         57982
+Squat1Kg            2648506
+Squat2Kg            2661319
+Squat3Kg            2691508
+Squat4Kg            3882176
+Best3SquatKg        1173513
+Bench1Kg            2082619
+Bench2Kg            2103438
+Bench3Kg            2155921
+Bench4Kg            3867944
+Best3BenchKg         441288
+Deadlift1Kg         2500150
+Deadlift2Kg         2523864
+Deadlift3Kg         2573382
+Deadlift4Kg         3864666
+Best3DeadliftKg      976220
+TotalKg              264737
+Place                     0
+Dots                 290803
+Wilks                290803
+Glossbrenner         290803
+Goodlift             588354
+Tested               929836
+Country             1719481
+State               3066855
+Federation                0
+ParentFederation    1554110
+Date                      0
+MeetCountry               0
+MeetState           1099458
+MeetTown             537479
+MeetName                  0
+Sanctioned                0

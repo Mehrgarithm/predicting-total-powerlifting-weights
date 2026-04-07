@@ -1,2 +1,2 @@
-data/*.zip
-data/*.csv
+data/raw/*
+!data/raw/.gitkeep
