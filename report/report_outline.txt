@@ -1,0 +1,10 @@
+1.Problem Formulation
+2.Data Acquisition
+3.data Cleaning and Preprocessing
+4.Exploratory Data Analysis
+5.Modeling
+6.Model Summary
+7.Model Evaluation
+8.Interpretation of Results
+9.Conclusion and recommendations
+10.References
