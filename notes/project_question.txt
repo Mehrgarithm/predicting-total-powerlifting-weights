@@ -1,5 +1,9 @@
 Project title: Predicting The Powerlifting Total From Bodyweight, Age, Sex, and Equipment with a Secondary Analysis of DOTS
+
 Main Research Question: Can an atheletes total weight lifted in a powerlifting competition be predicted using bodyweight, age, sex and Equipment category?
+
 Secondary Question: How do these same variables relate to the relative strength index as measured by DOTS?
+
 Why This Project Matters: In competitive powerlifting, performance can be talked about in two manners, firstly by looking at the performance through the lens of how much total weight the individual lifted throughout the entire competition (only measuring the single max weight lifted for each of the exercises) and in a second manner through relative performance measured by DOTS. In this project we will be looking at how athletes and competition characteristics are associated with the total lifting performance while also comparing those to the DOTS measurement to ensure that the understanding of pound for pound strength, all of this considered together makes our topics relevant for performance analysis and future sports data research.
+
 Short Description: We will be using public powerlifting data so we can predict athlete's total competition weight using bodyweight, age, sex, and equipment category and we will include in our efforts: data cleaning, preprocessing, exploratory data analysis, multiple linear regression and model evaluation on a separate testing set, the DOTS will be used as a secondary analysis variable so we can compare absolute strength and relative strength.
