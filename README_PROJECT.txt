@@ -50,6 +50,9 @@ Whats been done so far:
 - Event filtering applied for full powerlifting rows if available
 - Cleaned working dataset created in data/processed/
 - Cleaning summary file created
+- model-preparation script was written and ran
+- final model-ready dataset was created
+- model-preparation summary note was created
 
 required python libraries so far:
  - pandas
@@ -62,6 +65,10 @@ How to Run the Current Code:
    python3 code/01_load_and_inspect.py
 5.Run:
    python code/02_clean_and_filter.py
+6. Run:
+   python3 code/03_eda.py
+7. Run:
+   python3 code/04_prepare_model_data.py
 
 Important Notes:
 - All file paths in the code use paths relative to the project folder
