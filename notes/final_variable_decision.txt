@@ -1,0 +1,110 @@
+FINAL VARIABLE DECISION
+columns that currently available in the cleaned working dataset:
+- Sex
+- Event
+- Equipment
+- Age
+- BodyweightKg
+- TotalKg
+- Dots
+- Tested
+- Division
+- WeightClassKg
+
+the missing value check after cleaning (these stats can be found in the dataset summary):
+- Sex: 0 missing
+- Event: 0 missing
+- Equipment: 0 missing
+- Age: 677037 missing
+- BodyweightKg: 0 missing
+- TotalKg: 0 missing
+- Dots: 0 missing
+- Tested: 432042 missing
+- Division: 2780 missing
+- WeightClassKg: 17954 missing
+
+the main target variable is TotalKg because: the TotalKg is the main outcome in the revised project question, TotalKg is numerical, so it fits a regression model, and TotalKg has 0 missing values after cleaning
+
+Main predictor decisions:
+1. BodyweightKg
+Decision:keep in main model
+Reason:
+- BodyweightKg is directly relevant to lifting total.
+- BodyweightKg has 0 missing values after cleaning.
+2. Sex
+decision:keep in the main model
+Reason:
+-Sex is a relevant athlete characteristic for performance analysis.
+- Sex has 0 missing values after cleaning.
+3. equipment
+Decision: keep in main model
+Reason:
+- Equipment is a directly relevant competition characteristic.
+- Equipment has 0 missing values after cleaning.
+4. Age
+Decision: keep in main model
+Reason:
+- Age is conceptually relevant to performance.
+- Although Age has many missing values, the remaining usable sample size is still very large.
+Age final check:
+- Cleaned dataset rows: 2147935
+- Missing Age rows: 677037
+- Remaining rows if Age is required: 1470898
+conclusion about Age:
+- Age will stay in the main model.
+- Rows missing Age can be removed later during final modeling-data preparation if needed.
+- Keeping Age allows the project to stay faithful to the intended research question.
+
+Secondary analysis variable:
+DOTS
+Decision: keep for secondary analysis and EDA only
+Reason:
+- Dots is part of the revised project plan as a secondary variable.
+- Dots will be used to compare absolute strength and relative strength.
+- Dots will not be the main regression target.
+
+Optional columns not used in the main model:
+Event
+1. Decision: do not use in main model
+Reason:
+- Event is mainly useful for filtering comparable records.
+- It is not needed as a final predictor in the main regression model.
+2. Tested
+Decision: dont use in main model
+Reason:
+- Tested is not part of the core project question.
+- Tested has a large number of missing values.
+- Keeping it would add complexity without being necessary.
+3. Division
+Decision:dont use in main model
+Reason:
+- Division is not part of the core simplified predictor set.
+- Keeping it would add extra complexity to the main model.
+4. WeightClassKg
+Decision: dont use in main model
+Reason:
+- WeightClassKg is not part of the core simplified predictor set.
+- It overlaps with BodyweightKg and is not necessary for the main model.
+
+FINAL DECISION
+Main target variable:
+- TotalKg
+Main model predictors:
+- BodyweightKg
+- Age
+- Sex
+- Equipment
+Keep for secondary analysis/EDA:
+- Dots
+Do not use in the main model at this stage:
+- Event
+- Tested
+- Division
+- WeightClassKg
+
+Reason for this final structure:
+- It matches the revised project question.
+- It keeps the main model simple and interpretable.
+- It keeps the main predictors conceptually relevant.
+- It preserves Dots for comparing absolute and relative strength.
+- It avoids unnecessary complexity in the main regression model.

@@ -1,0 +1,13 @@
+Dataset Source:
+Official OpenPowerlifting bulk CSV dataset
+
+Downloaded File:
+  from the website: https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html
+  file donwloaded: openpowerlifting-latest.zip
+
+Why we chose this as our dataset:
+we chose this as this is the official OpenPowerlifting bulk dataset which has all of the chosen variables in a single spreadsheet and includes the variables needed for this project, such as Sex, Event, Equipment, Age, BodyweightKg, TotalKg, and DOTS and this dataset has the added bonus of being from and official organization which ensures accuracy of the data.
+
+Project Use:
+The main target variable will be TotalKg.
+DOTS will be used as a conformation and comparison of total weight lifted vs normalized metrics of total weight lifted
