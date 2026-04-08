@@ -1,0 +1,74 @@
+EDA SUMMARY
+
+Dataset used for EDA:
+data/processed/powerlifting_working.csv
+
+Columns used for EDA:
+- TotalKg
+- BodyweightKg
+- Age
+- Sex
+- Equipment
+- Dots
+
+Rows before dropping missing Age:
+2147935
+
+Rows after dropping missing Age:
+1470898
+
+Missing values in EDA dataset:
+TotalKg              0
+BodyweightKg         0
+Age             677037
+Sex                  0
+Equipment            0
+Dots                 0
+
+Descriptive statistics:
+            TotalKg  BodyweightKg           Age          Dots
+count  1.470898e+06  1.470898e+06  1.470898e+06  1.470898e+06
+mean   4.939932e+02  8.353479e+01  2.854073e+01  3.634358e+02
+std    1.721134e+02  2.201204e+01  1.204151e+01  8.007180e+01
+min    7.000000e+00  1.695000e+01  0.000000e+00  8.490000e+00
+25%    3.525000e+02  6.705000e+01  1.950000e+01  3.107200e+02
+50%    4.950000e+02  8.147000e+01  2.500000e+01  3.623200e+02
+75%    6.150000e+02  9.731000e+01  3.450000e+01  4.146100e+02
+max    1.407500e+03  2.850000e+02  9.550000e+01  8.081700e+02
+
+Mean TotalKg by Sex:
+Sex
+M     569.728682
+F     322.941753
+Mx    315.467344
+
+Mean TotalKg by Equipment:
+Equipment
+Straps        765.000000
+Multi-ply     667.465269
+Single-ply    529.333486
+Wraps         525.211533
+Raw           468.049048
+Unlimited     454.929479
+
+Mean Dots by Sex:
+Sex
+M     375.448002
+F     336.339083
+Mx    218.023047
+
+Mean Dots by Equipment:
+Equipment
+Straps        456.430000
+Multi-ply     444.738430
+Single-ply    393.012536
+Unlimited     371.907980
+Wraps         367.675309
+Raw           348.006190
+
+Correlation matrix:
+               TotalKg  BodyweightKg       Age      Dots
+TotalKg       1.000000      0.656971  0.040532  0.781169
+BodyweightKg  0.656971      1.000000  0.157224  0.198003
+Age           0.040532      0.157224  1.000000 -0.019461
+Dots          0.781169      0.198003 -0.019461  1.000000
