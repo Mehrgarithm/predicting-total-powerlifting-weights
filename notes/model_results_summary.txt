@@ -1,0 +1,51 @@
+MODEL RESULTS SUMMARY
+
+Input dataset:
+data/processed/powerlifting_model_ready.csv
+
+Dataset shape:
+(1470898, 10)
+
+Target variable:
+TotalKg
+
+Predictor variables:
+- BodyweightKg
+- Age
+- Sex_M
+- Sex_Mx
+- Equipment_Raw
+- Equipment_Single-ply
+- Equipment_Straps
+- Equipment_Unlimited
+- Equipment_Wraps
+
+Train-test split:
+Training rows: 1176718
+Test rows: 294180
+Test size proportion: 0.2
+Random state: 42
+
+Evaluation metrics:
+Training RMSE: 104.18647888973987
+Test RMSE: 104.42088130566367
+Training R^2: 0.633348371025809
+Test R^2: 0.6327950878545886
+
+Intercept:
+490.7041947598258
+
+Coefficients:
+            Variable  Coefficient
+               Sex_M   165.698245
+       Equipment_Raw  -130.819868
+     Equipment_Wraps  -107.847294
+ Equipment_Unlimited  -101.758923
+        BodyweightKg    79.485650
+Equipment_Single-ply   -74.888241
+              Sex_Mx   -48.659061
+    Equipment_Straps    21.351575
+                 Age    -3.608541
+
+Model equation form:
+Predicted TotalKg = intercept + sum(coefficient_i * predictor_i)
