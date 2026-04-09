@@ -36,6 +36,21 @@ min    7.000000e+00  1.695000e+01  0.000000e+00  8.490000e+00
 75%    6.150000e+02  9.731000e+01  3.450000e+01  4.146100e+02
 max    1.407500e+03  2.850000e+02  9.550000e+01  8.081700e+02
 
+Count by Sex:
+Sex
+F      451266
+M     1019504
+Mx        128
+
+Count by Equipment:
+Equipment
+Multi-ply      36456
+Raw           900205
+Single-ply    339339
+Straps             1
+Unlimited      14882
+Wraps         180015
+
 Mean TotalKg by Sex:
 Sex
 M     569.728682
