@@ -65,18 +65,18 @@ required python libraries so far:
 
 How to Run the Current Code:
 1. Make sure you have all the python libraries mentioned above installed 
-1. Place the raw OpenPowerlifting CSV file inside data/raw/ named the exact way as in the submission
-2. Make sure the file name in code/01_load_and_inspect.py matches the real CSV file name
-3. Open the project folder in terminal
-4. Run:
+2. Place the raw OpenPowerlifting CSV file inside data/raw/ named the exact way as in the submission
+3. Make sure the file name in code/01_load_and_inspect.py matches the real CSV file name
+4. Open the project folder in terminal
+5. Run:
    python3 code/01_load_and_inspect.py
-5.Run:
+6.Run:
    python code/02_clean_and_filter.py
-6. Run:
-   python3 code/03_eda.py
 7. Run:
-   python3 code/04_prepare_model_data.py
+   python3 code/03_eda.py
 8. Run:
+   python3 code/04_prepare_model_data.py
+9. Run:
    python3 code/05_fit_and_evaluate_model.py
 
 
