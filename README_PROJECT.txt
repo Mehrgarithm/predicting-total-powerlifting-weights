@@ -53,9 +53,15 @@ Whats been done so far:
 - model-preparation script was written and ran
 - final model-ready dataset was created
 - model-preparation summary note was created
+- Mathematical model summary note was created.
+- Evaluation interpretation note was created.
 
 required python libraries so far:
  - pandas
+ - numpy
+ - math 
+ - matplotlib
+ - sklearn
 
 How to Run the Current Code:
 1. Place the raw OpenPowerlifting CSV file inside data/raw/ named the exact way as in the submission
@@ -69,6 +75,9 @@ How to Run the Current Code:
    python3 code/03_eda.py
 7. Run:
    python3 code/04_prepare_model_data.py
+8. Run:
+   python3 code/05_fit_and_evaluate_model.py
+
 
 Important Notes:
 - All file paths in the code use paths relative to the project folder
