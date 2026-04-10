@@ -13,6 +13,8 @@ Research question(s):
 1.how accurately can an athletes competition total be predicted using bodyweight, age, sex, and equipment category?
 2. how do these same variables relate to relative strength as measured by DOTS?
 
+Github for project: https://github.com/Mehrgarithm/predicting-total-powerlifting-weights
+                    this version has things such as available graphs and descriptions and notes and summaries and figures
 Folder Structure:
 data/raw= raw downloaded dataset (contains .zip and .csv)
 data/processed= for the cleaned and processed datasets created during the project
