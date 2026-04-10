@@ -1,6 +1,7 @@
 data/raw/*
-!data/raw/.gitkeep
-data/processed/*.csv
+!data/raw/Temp.txt
+data/processed/*
+!data/processed/tempp.txt
 __pycache__/
 *.pyc
 .DS_Store
